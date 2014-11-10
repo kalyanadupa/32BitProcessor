@@ -1,15 +1,16 @@
 `timescale 1ns / 1ps
 
-module finalDataPath(clk, regDst, aluSrc, memRead, memWrite, jump, bAndZ, aluOp, addrOp, writeDataOp, pcOp, aOp2);
-	input clk, regDst, aluSrc, memRead, memWrite, jump, bAndZ, addrOp, writeDataOp, pcOp, aOp2;
+module finalDataPath(clk, regDst, aluSrc, memRead, memWrite, jump, bAndZ, aluOp, spOp, addrOp, writeDataOp, wdOp2, pcOp, aOp2, spWrite, spWrite2);
+	input clk, regDst, aluSrc, memRead, memWrite, jump, bAndZ, addrOp, writeDataOp, pcOp, aOp2, wdOp2, spWrite, spWrite2;
 	reg[31:0] pc, sp;
-	input[3:0] aluOp;
+	input[3:0] aluOp, spOp;
 	wire[31:0] instruct, readData1, readData2, writeReg, secondInput, extendInstr, readData;
-	wire[31:0] nextPC, finalNextPC, branchPC, jumpAddr, spOut, finalAddress1, finalAddress2, finalWriteData;
+	wire[31:0] nextPC, finalNextPC, branchPC, jumpAddr, spOut, finalAddress1, finalAddress2, finalWriteData1, finalWriteData2;
 	
-	alu forSP(spOut, sp, 4, 0);
+	alu forSP(spOut, sp, 4, spOp);
 	alu forNextPC(nextPC, pc, 4, 0);
-	// todo cycling sp and todo LDSP STSP
+	mux2to1_32 forFinalSp1(finalSp1, nextPC, spOut, memToReg);
+	mux2to1_32 forFinalSp2(sp, sp, finalSp1, memToReg);
 	
 	instructMem im(clk, pc, instrct);
 	
@@ -22,8 +23,9 @@ module finalDataPath(clk, regDst, aluSrc, memRead, memWrite, jump, bAndZ, aluOp,
 	
 	mux2to1_32 forfinalAddress1(finalAddress1, spOut, pc, aOp2);
 	mux2to1_32 forfinalAddress2(finalAddress2, aluResult, finalAddress1, addrOp);
-	mux2to1_32 forfinalWriteData(finalWriteData, writeData, nextPC, writeDataOp);
-	memory dm(clk, finalAddress, finalWriteData, memWrite, memRead, readData);
+	mux2to1_32 forfinalWriteData1(finalWriteData1, nextPC, sp, wdOp2);
+	mux2to1_32 forfinalWriteData2(finalWriteData2, writeData, finalWriteData1, writeDataOp);
+	memory dm(clk, finalAddress, finalWriteData2, memWrite, memRead, readData);
 	
 	mux2to1_32 forWriteData(regWrite, aluResult, readData, memToReg);
 	calcJump jumpCalc(clk, instruct[26:0], pc[31:26], jumpAddr);
@@ -41,5 +43,4 @@ module finalDataPath(clk, regDst, aluSrc, memRead, memWrite, jump, bAndZ, aluOp,
 	begin
 		pc = finalNextPC;
 	end
-	//assign pc = finalNextPC;
 endmodule

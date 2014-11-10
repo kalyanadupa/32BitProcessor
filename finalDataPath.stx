@@ -1,0 +1,71 @@
+Release 12.1 - xst M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Documents and Settings/User/My Documents/Group 16/assignment5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to C:/Documents and Settings/User/My Documents/Group 16/assignment5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux2to1.V" in library work
+Compiling verilog file "fulladder.V" in library work
+Module <mux2to1> compiled
+Compiling verilog file "rippleadder.V" in library work
+Module <fulladder> compiled
+Compiling verilog file "mux2to1_32.V" in library work
+Module <rippleadder> compiled
+Compiling verilog file "fullnot.V" in library work
+Module <mux2to1_32> compiled
+Compiling verilog file "sra.V" in library work
+Module <fullnot> compiled
+Compiling verilog file "sla.V" in library work
+Module <sra> compiled
+Compiling verilog file "fullxor.V" in library work
+Module <sla> compiled
+Compiling verilog file "fullor.V" in library work
+Module <fullxor> compiled
+Compiling verilog file "fulland.V" in library work
+Module <fullor> compiled
+Compiling verilog file "addsub.V" in library work
+Module <fulland> compiled
+Compiling verilog file "signExtend.v" in library work
+Module <addsub> compiled
+Compiling verilog file "shiftLeft2.v" in library work
+Module <signExtend> compiled
+Compiling verilog file "registerBank.v" in library work
+Module <calcJump> compiled
+Compiling verilog file "memory.v" in library work
+Module <registerBank> compiled
+Compiling verilog file "instructMem.v" in library work
+Module <memory> compiled
+Compiling verilog file "finalalu.V" in library work
+Module <instructMem> compiled
+Compiling verilog file "finalDataPath.v" in library work
+Module <alu> compiled
+Module <finalDataPath> compiled
+No errors in compilation
+Analysis of file <"finalDataPath.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> 
+
+Total memory usage is 118916 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

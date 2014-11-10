@@ -26,6 +26,14 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="controlPath.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="controlPath.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="controlPath.xst"/>
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name="finalDataPath.lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="finalDataPath.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="finalDataPath.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="finalDataPath.xst"/>
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name="memory.lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="memory.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="memory.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="memory.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 

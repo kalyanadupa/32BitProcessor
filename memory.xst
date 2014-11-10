@@ -1,0 +1,6 @@
+set -tmpdir "C:/Documents and Settings/User/My Documents/Group 16/assignment5/xst/projnav.tmp"
+set -xsthdpdir "C:/Documents and Settings/User/My Documents/Group 16/assignment5/xst"
+elaborate
+-lso "C:/Documents and Settings/User/My Documents/Group 16/assignment5/memory.lso"
+-ifn memory.prj
+-ifmt mixed
