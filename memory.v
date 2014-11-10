@@ -7,6 +7,7 @@ module memory(clk, address, write_data, memory_write, memory_read, read_data);
 	 
     reg[7:0] mems[63:0];
     wire[31:0] tmp;
+    
     assign tmp[7:0] = mems[address+3];
     assign tmp[15:8] = mems[address+2];
     assign tmp[23:16] = mems[address+1];
