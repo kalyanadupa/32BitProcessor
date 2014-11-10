@@ -5,10 +5,18 @@ module memory(clk, address, writeData, memoryWrite, memoryRead, readData);
     input clk, memoryWrite, memoryRead;
     output reg [31:0] readData;
 	 
+	 
+	 
     reg[7:0] mems[63:0];
     wire[31:0] tmp;
     
-    assign tmp[7:0] = mems[address+3];
+	 initial mems[0]=8'b;
+	 initial mems[1]=8'b;
+	 initial mems[2]=8'b;
+	 initial mems[3]=8'b;
+	 
+    
+	 assign tmp[7:0] = mems[address+3];
     assign tmp[15:8] = mems[address+2];
     assign tmp[23:16] = mems[address+1];
     assign tmp[31:24] = mems[address+0];
