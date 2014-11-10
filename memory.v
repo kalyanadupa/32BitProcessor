@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 
-module memory(clk, address, write_data, memory_write, memory_read, read_data);
-    input [31:0] address, write_data;
-    input clk, memory_write, memory_read;
-    output reg [31:0] read_data;
+module memory(clk, address, writeData, memoryWrite, memoryRead, readData);
+    input [31:0] address, writeData;
+    input clk, memoryWrite, memoryRead;
+    output reg [31:0] readData;
 	 
     reg[7:0] mems[63:0];
     wire[31:0] tmp;
@@ -15,14 +15,14 @@ module memory(clk, address, write_data, memory_write, memory_read, read_data);
 	 
 	always @(posedge clk)
 	begin
-		if(memory_write == 1)
+		if(memoryWrite == 1)
 		begin
-			mems[address+0] = write_data[31:24];
-			mems[address+1] = write_data[23:16];
-			mems[address+2] = write_data[15:8];
-			mems[address+3] = write_data[7:0];
+			mems[address+0] = writeData[31:24];
+			mems[address+1] = writeData[23:16];
+			mems[address+2] = writeData[15:8];
+			mems[address+3] = writeData[7:0];
       end
-      if(memory_read == 1)
-			read_data = tmp;
+      if(memoryRead == 1)
+			readData = tmp;
     end
 endmodule
