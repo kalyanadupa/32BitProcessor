@@ -1,0 +1,86 @@
+Release 12.1 - xst M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Documents and Settings/User/My Documents/Group 16/assignment5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to C:/Documents and Settings/User/My Documents/Group 16/assignment5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "controlPath.v" in library work
+Module <controlPath> compiled
+ERROR:HDLCompilers:247 - "controlPath.v" line 15 Reference to scalar wire 'regDst' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:106 - "controlPath.v" line 15 Illegal left hand side of nonblocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 16 Reference to scalar wire 'branch' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 16 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 17 Reference to scalar wire 'memRead' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 17 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 18 Reference to scalar wire 'memToReg' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 18 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 19 Reference to scalar wire 'memWrite' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 19 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 20 Reference to scalar wire 'ALUSrc' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 20 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 21 Reference to scalar wire 'regWrite' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 21 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 22 Reference to vector wire 'ALUOp' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 22 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 30 Reference to scalar wire 'regDst' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 30 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 31 Reference to scalar wire 'branch' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 31 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 32 Reference to scalar wire 'memRead' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 32 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 33 Reference to scalar wire 'memToReg' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 33 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 34 Reference to scalar wire 'memWrite' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 34 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 35 Reference to scalar wire 'ALUSrc' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 35 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 36 Reference to scalar wire 'regWrite' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 36 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 37 Reference to vector wire 'ALUOp' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 37 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 40 Reference to scalar wire 'branch' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 40 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 41 Reference to scalar wire 'memRead' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 41 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 42 Reference to scalar wire 'memWrite' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 42 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 43 Reference to scalar wire 'ALUSrc' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 43 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 44 Reference to scalar wire 'regWrite' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 44 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 46 Reference to scalar wire 'zero' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 46 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 47 Reference to scalar wire 'zero' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 47 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 48 Reference to scalar wire 'zero' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 48 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 49 Reference to scalar wire 'zero' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 49 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 50 Reference to scalar wire 'zero' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 50 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 51 Reference to scalar wire 'zero' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 51 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "controlPath.v" line 52 Reference to scalar wire 'zero' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "controlPath.v" line 52 Illegal left hand side of blocking assignment
+Analysis of file <"controlPath.prj"> failed.
+--> 
+
+Total memory usage is 117892 kilobytes
+
+Number of errors   :   56 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
