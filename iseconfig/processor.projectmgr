@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="1" owner="projectmgr" name="processor" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/calcJump/s0 - sla</ClosedNode>
+         <ClosedNode>/calcJump/s1 - sla</ClosedNode>
+         <ClosedNode>/finalDataPath/calcPC - alu</ClosedNode>
+         <ClosedNode>/finalDataPath/calcbranchPC - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forFinalSp1 - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forFinalSp2 - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forNextPC - alu</ClosedNode>
+         <ClosedNode>/finalDataPath/forSP - alu</ClosedNode>
+         <ClosedNode>/finalDataPath/forSecondInput - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forWriteData - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forWriteReg - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forfinalAddress1 - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forfinalAddress2 - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forfinalPC - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forfinalWriteData1 - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/forfinalWriteData2 - mux2to1_32</ClosedNode>
+         <ClosedNode>/finalDataPath/mainalu - alu</ClosedNode>
+         <ClosedNode>/finalDataPath/s0 - sla</ClosedNode>
+         <ClosedNode>/finalDataPath/s1 - sla</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>im - memory (C:/Documents and Settings/User/My Documents/Group 16/processor/memory.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000013f000000020000000000000000000000000000000064ffffffff0000008100000000000000020000013f0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>im - memory (C:/Documents and Settings/User/My Documents/Group 16/processor/memory.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000150000000010000000100000000000000000000000064ffffffff000000810000000000000001000001500000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes/>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000015e000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007a00000001000000000000002400000001000000000000006600000001000000000000005a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>signExtend.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000150000000010000000100000000000000000000000064ffffffff000000810000000000000001000001500000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/controlPath</ClosedNode>
+         <ClosedNode>/finalDataPath</ClosedNode>
+         <ClosedNode>/test/uut - controlPath</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/calcPC - alu</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/calcbranchPC - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/controlPath - controlPath</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/cp - controlPath</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forFinalSp1 - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forFinalSp2 - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forNextPC - alu</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forSP - alu</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forSecondInput - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forWriteData - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forWriteReg - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forfinalAddress1 - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forfinalAddress2 - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forfinalPC - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forfinalWriteData1 - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/forfinalWriteData2 - mux2to1_32</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/mainalu - alu</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/s0 - sla</ClosedNode>
+         <ClosedNode>/test/uut - finalDataPath/s1 - sla</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>test (C:/Documents and Settings/User/My Documents/Group 16/processor/test.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015c000000020000000000000000000000000000000064ffffffff0000008100000000000000020000015c0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>test (C:/Documents and Settings/User/My Documents/Group 16/processor/test.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000150000000010000000100000000000000000000000064ffffffff000000810000000000000001000001500000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000150000000010000000100000000000000000000000064ffffffff000000810000000000000001000001500000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

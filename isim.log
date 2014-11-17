@@ -1,0 +1,28 @@
+ISim log file
+Running: C:\Documents and Settings\User\My Documents\Group 16\processor\test_isim_beh.exe -gui -tclbatch isim.cmd -wdb C:/Documents and Settings/User/My Documents/Group 16/processor/test_isim_beh.wdb 
+ISim M.53d (signature 0xb869381d)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance uut/forNextPC/, width 4 of formal port op is not equal to width 32 of actual constant.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 22.  For instance uut/forFinalSp1/, width 32 of formal port out is not equal to width 1 of actual signal finalSp1.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 22.  For instance uut/forFinalSp2/, width 32 of formal port b is not equal to width 1 of actual signal finalSp1.
+WARNING: For instance uut/forWriteReg/, width 32 of formal port a is not equal to width 5 of actual.
+WARNING: For instance uut/forWriteReg/, width 32 of formal port b is not equal to width 5 of actual.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 9.  For instance uut/rb/, width 5 of formal port regD is not equal to width 32 of actual signal writeReg.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 26.  For instance uut/rb/, width 32 of formal port writeData is not equal to width 1 of actual signal writeData.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 30.  For instance uut/mainalu/, width 32 of formal port out is not equal to width 1 of actual signal aluResult.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 30.  For instance uut/forfinalAddress2/, width 32 of formal port a is not equal to width 1 of actual signal aluResult.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 36.  For instance uut/dm/, width 32 of formal port address is not equal to width 1 of actual signal finalAddress.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 30.  For instance uut/forWriteData/, width 32 of formal port a is not equal to width 1 of actual signal aluResult.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 44.  For instance uut/calcPC/, width 32 of formal port out is not equal to width 1 of actual signal aluRes2.
+WARNING:  For instance uut/calcPC/, width 4 of formal port op is not equal to width 32 of actual constant.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 44.  For instance uut/calcbranchPC/, width 32 of formal port b is not equal to width 1 of actual signal aluRes2.
+WARNING: File "C:/Documents and Settings/User/My Documents/Group 16/processor/finalDataPath.v" Line 7.  For instance uut/forfinalPC/, width 32 of formal port b is not equal to width 1 of actual signal regWrite.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

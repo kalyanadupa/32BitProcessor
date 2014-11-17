@@ -9,13 +9,12 @@ module registerBank(regA, regB, clk, regWrite, regS, regT, regD, writeData);
     output reg [31:0] regA;
     output reg [31:0] regB;
 	
-	reg [31:0] R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, SP, PC;
+	reg [31:0] R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15;
 
 	always@ (posedge clk)
 	begin
 		R0 <= 32'b0;
-		R1 <= 5;
-		R2 <= 6;
+        
 		// assign regA
 		case(regS)
 			 0: regA = R0;

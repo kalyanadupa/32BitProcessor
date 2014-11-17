@@ -1,33 +1,17 @@
 `timescale 1ns / 1ps
 
-/*
-regDst = ;
-branch = ;
-memRead = ;
-memToReg = ;
-aluOp = ;
-memWrite = ;
-aluSrc = ;
-addrOp = ;
-writeDataOp = ;
-pcOp = ;
-aOp2 = ;
-spOp = ;
-regWrite = ;
-spWrite = ;
-wdOp2 = ;
-*/
-
 module controlPath(clk, instruct, regDst, branch, memRead, memToReg, aluOp, memWrite, aluSrc,
-                   addrOp, writeDataOp, pcOp, aOp2, spOp, regWrite, zero, forBranch, spWrite, spWrite2, wdOp2);
+                   addrOp, writeDataOp, pcOp, aOp2, spOp, regWrite, zero, spWrite, spWrite2, wdOp2);
     input clk;
-    input[31:0] instruct, forBranch;
+    input[31:0] instruct;
     output regDst, branch, memRead, memToReg, memWrite, aluSrc, addrOp,
            writeDataOp, pcOp, aOp2, regWrite, zero, spWrite, spWrite2, wdOp2;
     reg regDst, branch, memRead, memToReg, memWrite, aluSrc, addrOp,
            writeDataOp, pcOp, aOp2, regWrite, zero, spWrite, spWrite2, wdOp2;
     output[3:0] aluOp, spOp;
     reg[3:0] aluOp, spOp;
+    wire[31:0] forBranch, t1;
+    registerBank rb(forBranch, t1, clk, 1'b0, instruct[25:21], 5'b0, 5'b0, 32'b0);
     
     always@(posedge clk)
     begin

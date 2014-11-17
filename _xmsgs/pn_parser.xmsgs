@@ -8,25 +8,7 @@
 <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1062" ><arg fmt="%s" index="1">Parsing Verilog file &quot;C:/Documents and Settings/User/My Documents/Group 16/assignment5/memory.v&quot; into library work</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Documents and Settings/User/My Documents/Group 16/assignment5/memory.v</arg>&quot; Line <arg fmt="%d" index="2">13</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Documents and Settings/User/My Documents/Group 16/assignment5/memory.v</arg>&quot; Line <arg fmt="%d" index="2">14</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Documents and Settings/User/My Documents/Group 16/assignment5/memory.v</arg>&quot; Line <arg fmt="%d" index="2">15</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Documents and Settings/User/My Documents/Group 16/assignment5/memory.v</arg>&quot; Line <arg fmt="%d" index="2">16</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1062" ><arg fmt="%s" index="1">Parsing Verilog file &quot;C:/Documents and Settings/User/My Documents/Group 16/assignment5/processor.v&quot; into library work</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Documents and Settings/User/My Documents/Group 16/assignment5/processor.v</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. <arg fmt="%s" index="3">Syntax error near &quot;finalDataPath&quot;.</arg>
+<msg type="info" file="ProjectMgmt" num="1062" ><arg fmt="%s" index="1">Parsing Verilog file &quot;C:/Documents and Settings/User/My Documents/Group 16/processor/controlPath.v&quot; into library work</arg>
 </msg>
 
 </messages>
